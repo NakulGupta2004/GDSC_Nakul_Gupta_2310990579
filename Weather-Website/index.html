@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMzD4j/sSUtiX9xD9rURoyFd0scZXaNDcM6qL" crossorigin="anonymous">
+</head>
+<body>
+    <div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+    </div>
+    <div class="Display montserrat">
+        <img src="image-removebg-preview.png" alt="" height="50px" width="50px">
+        <p>Enter Your Location</p>
+        <input type="text" id="inputField" placeholder="Enter city name">
+        <button onclick="startUpdates()">Get Weather</button>
+        <p class="one"></p>
+        <h2></h2>
+        <p class="two"></p>
+        <h3></h3>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
